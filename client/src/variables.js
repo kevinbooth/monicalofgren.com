@@ -1,1 +1,1 @@
-export const SITE_NAME = 'Kevin Booth'
+export const SITE_NAME = 'Monica Lofgren'
