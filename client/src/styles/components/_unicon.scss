@@ -1,0 +1,39 @@
+.unicon {
+    svg {
+        fill: $green;
+    }
+
+    svg:hover {
+      fill: $purple;
+    }
+}
+
+.unicon--inverse {
+    svg {
+        fill: $purple;
+    }
+
+    svg:hover {
+       fill: $green;
+    }
+}
+
+.unicon--mute {
+    svg {
+        fill: $lightGray;
+    }
+
+    svg:hover {
+        fill: $green;
+    }
+}
+
+.unicon--mute-alt {
+    svg {
+        fill: $lightGray;
+    }
+
+    svg:hover {
+        fill: $purple;
+    }
+}

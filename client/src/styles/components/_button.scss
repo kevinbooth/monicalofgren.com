@@ -1,0 +1,56 @@
+﻿
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button,
+button {
+  @include box-shadow(1rem, 1rem, 0, 0, $purple);
+  transition: box-shadow 0.3s ease-in-out;
+
+  background-color: transparent;
+  border: .2rem solid $purple;
+  color: $white;
+  cursor: pointer; 
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: .2rem;
+  line-height: 2;
+  padding: 0 2rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  //white-space: nowrap;
+
+  margin-right: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.button:link,
+.button:visited,
+.button:active {
+  color: $white;
+}
+
+.button:hover,
+button:hover {
+  border-color: lighten($green, 5%);
+  outline: 0; 
+  text-decoration: none;
+
+  @include box-shadow(0, 0, 0, 0, $green);
+}
+
+.button--secondary {
+  @include box-shadow(1rem, 1rem, 0, 0, $green);
+
+  border: 2px solid $green;
+}
+
+
+.button--secondary:hover {
+  border-color: lighten($purple, 5%);
+  outline: 0; 
+  text-decoration: none;
+
+  @include box-shadow(0, 0, 0, 0, $purple);
+}

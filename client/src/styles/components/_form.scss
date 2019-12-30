@@ -1,0 +1,49 @@
+input, textarea {
+    @include normalize-form-elements();
+    @include regular_font;
+
+    background-color: $gray;
+    color: $white;
+    border: none;
+    margin: .5rem 0;
+    outline: none;
+    padding: 1.5rem;
+    width: 90%;
+
+    &::placeholder {
+        color: $lightGray;
+    }
+
+    @media screen and (min-width: $bp-medium) {
+        width: 60%;
+    }
+}
+
+textarea {
+    resize: vertical;
+    min-height: 8rem;
+}
+
+form, .form {
+    button, .button {
+        display: block;
+    }
+}
+
+.form__container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.form__container--contact {
+
+    transition: max-height 1s ease-out;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.form__title {
+    @include header_font;
+
+    margin-bottom: 2rem;
+}

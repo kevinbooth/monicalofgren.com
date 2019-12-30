@@ -1,0 +1,16 @@
+.profile {
+  @include flexbox;
+  @include justify-content(center);
+  @include align-items(center);
+  @include flex-direction(column);
+
+  height: 100vh;
+
+  img {
+    @include box-shadow(1rem, 1rem, 0, 0, $purple);
+
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    max-width: 17rem;
+  }
+}

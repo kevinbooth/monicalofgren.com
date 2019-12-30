@@ -1,0 +1,45 @@
+/* Globals */
+@import "mixins";
+@import "mixins-flexbox";
+
+/** Custom Sass variables **/
+
+/** Colors **/
+$white: #fff;
+$lighterGray: #d7d7d7;
+$lightGray: #808080;
+$gray: #525050;
+$darkGray: #1d1d1d;;
+$black: #000000;
+
+$green: #80ffc6;
+$purple: #7f79fc;
+
+
+/* Color settings */
+$font-color: $darkGray;
+$primary-color: $lightGray;
+
+
+/* Content */
+
+
+/* Breakpoints */
+$bp-xsmall: 25rem; /* ~400px */
+$bp-small: 40rem; /* ~640px */
+$bp-medium: 60rem; /* ~960px */
+$bp-large: 71.25rem; /* ~1140px */
+$bp-xlarge: 134rem; /* ~2150px */
+$bp-nav: 50rem; /* ~800px */
+
+
+/* Font sizes */
+
+
+/* Padding/Margins */
+$padding-sm: 1.25rem;
+$padding-md: 2.5rem;
+
+
+/* Dimensions */
+
