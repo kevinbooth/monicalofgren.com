@@ -24,7 +24,7 @@
       </div>
       <div class="follow unicon">
         <a href="https://www.linkedin.com/in/monica-lofgren" target="_blank"><unicon name="linkedin" width="35" height="35"></unicon></a>
-        <a href="mailto:kdbooth97@gmail.com" target="_blank"><unicon name="envelope" width="35" height="35"></unicon></a>
+        <a href="mailto:monlofgren@gmail.com"><unicon name="envelope" width="35" height="35"></unicon></a>
       </div>
     </div>
   </div>
@@ -45,7 +45,7 @@ export default {
   data() {
     return {
       typer: ["hi, i'm monica,", "and i can do your taxes!"],
-      height: (window.innerHeight - 30) + "px"
+      height: (window.innerHeight - 10) + "px"
     }
   },
   metaInfo: {
