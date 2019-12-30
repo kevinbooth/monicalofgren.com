@@ -2,7 +2,7 @@ const path = require('path')
 var express = require('express')
 var app = express()
 
-app.set('port', (process.env.PORT || 3000))
+app.set('port', (process.env.PORT || 3456))
 
 app.use('/', express.static(path.join(__dirname,"../client/dist/"))) 
 
