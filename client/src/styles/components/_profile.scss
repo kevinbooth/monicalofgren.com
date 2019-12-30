@@ -7,10 +7,26 @@
   height: 100vh;
 
   img {
-    @include box-shadow(1rem, 1rem, 0, 0, $purple);
+    @include box-shadow(1rem, 1rem, 0, 0, #efa28e);
 
     margin-right: 1rem;
     margin-bottom: 1rem;
-    max-width: 17rem;
+    max-width: 14rem;
+
+    @media screen and (min-width: $bp-medium) {
+      max-width: 17rem;
+    }
+  }
+
+  &__bio {
+    font-size: 1.3rem;
+    max-width: 50rem;
+    margin-bottom: 2rem;
+    text-align: center;
+
+    @media screen and (min-width: $bp-medium) {
+      font-size: 1.6rem;
+      margin-bottom: 3rem;
+    }
   }
 }

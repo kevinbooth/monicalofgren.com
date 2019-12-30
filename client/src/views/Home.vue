@@ -1,7 +1,7 @@
 <template>
   <div class="container home">
     <div class="row profile" v-bind:style="{ height: height }">
-      <img src="@/assets/kevin.jpg" />
+      <img src="@/assets/monica.jpg" />
       <div class="vue-typer__container--home">
         <vue-typer 
           class="vue-typer--large"
@@ -10,11 +10,21 @@
           :erase-delay=50
         ></vue-typer>
       </div>
+      <div class="profile__bio"> 
+        <p>
+          I’m currently a Senior at Southern New Hampshire University pursuing a B.S in Accounting. 
+          In May 2019, I earned an A.S. in Accounting with a 4.0 GPA at NHTI. During my time there, 
+          I received 3 academic achievement awards. I've developed a strong work ethic balancing school 
+          and work. In addition to my work experiences, tutoring students in accounting and business 
+          courses have strengthened my communication and problem-solving skills. I’m looking forward 
+          to interning at Baker Newman Noyes in January 2020 to further develop myself professionally 
+          and expand my tax knowledge and skills. My goal is to become eligible to sit for the CPA exam 
+          shortly after graduating in December 2020.
+        </p>
+      </div>
       <div class="follow unicon">
-        <a href="https://github.com/kevinbooth" target="_blank"><unicon name="github" width="35" height="35"></unicon></a>
-        <a href="https://www.linkedin.com/in/kevbooth" target="_blank"><unicon name="linkedin" width="35" height="35"></unicon></a>
-        <a href="https://www.instagram.com/kevinbooth/" target="_blank"><unicon name="instagram" width="35" height="35"></unicon></a>
-        <a href="https://www.facebook.com/KevinBoothh" target="_blank"><unicon name="facebook" width="35" height="35"></unicon></a>
+        <a href="https://www.linkedin.com/in/monica-lofgren" target="_blank"><unicon name="linkedin" width="35" height="35"></unicon></a>
+        <a href="mailto:kdbooth97@gmail.com" target="_blank"><unicon name="envelope" width="35" height="35"></unicon></a>
       </div>
     </div>
   </div>
@@ -34,7 +44,7 @@ export default {
   },
   data() {
     return {
-      typer: ["hey, i'm kevin..", "and i code!"],
+      typer: ["hi, i'm monica,", "and i can do your taxes!"],
       height: (window.innerHeight - 30) + "px"
     }
   },

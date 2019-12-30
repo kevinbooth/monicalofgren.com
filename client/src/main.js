@@ -3,7 +3,7 @@ import App from './App.vue'
 import router from './router'
 import VueMeta from 'vue-meta'
 import Unicon from 'vue-unicons'
-import { uniGithub, uniLinkedin, uniInstagram, uniFacebook, uniHomeAlt, uniScrew } from 'vue-unicons/src/icons'
+import { uniLinkedin, uniInstagram, uniFacebook, uniHomeAlt, uniEnvelope } from 'vue-unicons/src/icons'
 
 // import styles
 import "@/styles/styles.scss";
@@ -15,7 +15,7 @@ Vue.use(VueMeta, {
   refreshOnceOnNavigation: true
 })
 
-Unicon.add([uniGithub, uniLinkedin, uniInstagram, uniFacebook, uniHomeAlt, uniScrew])
+Unicon.add([uniLinkedin, uniInstagram, uniFacebook, uniHomeAlt, uniEnvelope])
 Vue.use(Unicon)
 
 new Vue({
